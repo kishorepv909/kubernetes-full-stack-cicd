@@ -70,13 +70,15 @@
 					</execution>
 				</executions>
 				<configuration>
+					<skip>true</true>
+					<!--
 					<username>kishorepv909</username>
 					<password>Kittu@303</password>
 					<repository>registry.hub.docker.com/kishorepv909/${project.artifactId}</repository>
 					<tag>${project.version}</tag>
 					<buildArgs>
 						<JAR_FILE>${project.build.finalName}.jar</JAR_FILE>
-					</buildArgs>
+					</buildArgs> -->
 				</configuration>
 			</plugin>
 		</plugins>
